@@ -1,4 +1,5 @@
 <?
   class person {
+    var $name;
   }
 ?> 
