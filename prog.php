@@ -1,18 +1,27 @@
-<?
-  class blueprint {
-  protected $myname;
-  public $email;
-  private $address;
+<?php  
+  function isEven($aNumber)
+  {
+	$x = $aNumber % 2 == 0;
+	return $x;
   }
-
-  class radio extends blueprint {
-
-    public $station = '105.9';
-
-  } 
-  $object = new radio;
-  $object->email = 'yaarendler@gmail.com';
   
-
-  print_r($object);
+  function checkANumber($x)
+  {
+	  $z = isEven($x);
+	  
+	  if ($z == true)
+	  {
+		echo "$x is even!";
+	  }
+	  else 
+	  {
+		echo "$x is odd";
+	  }
+  }
+  
+  checkANumber(5);
+  echo "<BR>";
+  checkANumber(6);
 ?>
+
+
