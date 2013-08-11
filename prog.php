@@ -1,5 +1,5 @@
 <?php
-$x = 5;
+$x =1005;
 
 if ($x == 5)
 {
@@ -13,7 +13,7 @@ else if ($x < 1000)
 {
   echo "it is less then a thousand";
 }
-else
+elseif ($x > 1000)
 {
   echo "it is more then 1000";
 }
