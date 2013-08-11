@@ -1,27 +1,22 @@
-<?php  
-  function isEven($aNumber)
-  {
-	$x = $aNumber % 2 == 0;
-	return $x;
-  }
-  
-  function checkANumber($x)
-  {
-	  $z = isEven($x);
-	  
-	  if ($z == true)
-	  {
-		echo "$x is even!";
-	  }
-	  else 
-	  {
-		echo "$x is odd";
-	  }
-  }
-  
-  checkANumber(5);
-  echo "<BR>";
-  checkANumber(6);
+<?php
+$x = 5;
+
+if ($x == 5)
+{
+  echo "it is 5";
+}
+else if ($x == 100)
+{
+  echo "it is 100";
+} 
+else if ($x < 1000)
+{
+  echo "it is less then a thousand";
+}
+else
+{
+  echo "it is more then 1000";
+}
 ?>
 
 
