@@ -1,10 +1,14 @@
 <?php 
   
-  for($i = 1;$i<=5;$i++) { $j = 6
+  for($i = 1;$i<=5;$i++) 
+             echo "$i times is " . $i * 7 . "<br />";
+ 
 
-        for ($j = 1;$j<=$i;$J++) {
-             echo '*';
-         }
-            echo '<br />';
-       }
+
+
+
+
+//  for ($count = 1 ; $count<= 12; ++$count)
+  //  print "$count times 12 is " . $count* 12 . "<br />";
+  
 ?>
