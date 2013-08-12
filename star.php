@@ -1,7 +1,7 @@
 <?php 
   
   for($i = 1;$i<=5;$i++) 
-             echo "$i times is " . $i * 7 . "<br />";
+             echo "$i times 7 = " . $i * 7 . "<br />";
  
 
 
