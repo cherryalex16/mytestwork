@@ -1,15 +1,19 @@
 <?php
-  class messagePrint {
-    function __construct($message) {
-      echo $message .'<br>';
+  class contact_list
+   {
+   //  $contacts = array(); 
+    
+  
+    
+    public$name;
+    public$address;
+    public$phonenumber;
     }
-  }
+   
 
-
-  $MyMessage = 'message in a bottles';
-  $obj = new messagePrint($MyMessage);
-  $asher = 'asher';  
-  $obj = new messagePrint($asher);
-  $asherrendler =  'asher rendler';
-  $obj = new messagePrint($asherrendler);
+  $contact1 = new contact_list;
+  $contact1->name = 'asher rendler';
+  $contact1->address = '74 kew gardens dr';
+  $contact1->phonenumber = '732-901-9413';
+  print_r ($contact1)
 ?> 
