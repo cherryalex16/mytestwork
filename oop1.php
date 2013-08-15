@@ -1,19 +1,37 @@
 <?php
   class contact_list
    {
-   //  $contacts = array(); 
     
+   /* public function put_contacts_tolist;
+       { 
+           $contacts = array($contact1);
+           foreach ($contact1 as $item);
+
+           { echo ($item);}
   
+       }   */
+        
+  
+   
     
     public$name;
     public$address;
     public$phonenumber;
-    }
-   
+    
+  } 
 
   $contact1 = new contact_list;
   $contact1->name = 'asher rendler';
   $contact1->address = '74 kew gardens dr';
   $contact1->phonenumber = '732-901-9413';
-  print_r ($contact1)
+  $contact2 = new contact_list;
+  $contact2->name = 'raizy rendler';
+  $contact2->address = '76 kew gardens dr';
+  $contact2->phonenumber = '917-968-7147';
+  $contacts[] = ($contact1);
+  $contacts[] = ($contact2);
+  print_r ($contacts);
+  foreach ($contacts as $item => $value);
+  echo  $value->$item;
+ 
 ?> 
