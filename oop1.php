@@ -9,11 +9,7 @@
 
            { echo ($item);}
   
-       }   */
-        
-  
-   
-    
+       }   */    
     public$name;
     public$address;
     public$phonenumber;
@@ -28,10 +24,9 @@
   $contact2->name = 'raizy rendler';
   $contact2->address = '76 kew gardens dr';
   $contact2->phonenumber = '917-968-7147';
-  $contacts[] = ($contact1);
-  $contacts[] = ($contact2);
+  $contacts = array ($contact1, $contact2);
+     foreach($contacts as $key => $value)
+           foreach($value as $keys =>$values)
+  echo "$keys: $values<br>";
   print_r ($contacts);
-  foreach ($contacts as $item => $value);
-  echo  $value->$item;
- 
 ?> 
