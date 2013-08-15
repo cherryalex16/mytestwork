@@ -1,20 +1,14 @@
 <?php
- class hello {
+  class Person
+  {
+    public $age;
+    public $name;
+  }
+  $me = new Person();
+  $me->age = 35;
+  $me->name = 'Asher';
 
-//    public $name;
-    private $ages;
-  function setName() {
-    $ages = $age;
-   }
-   function __construct($stuff) {
-   echo $stuff;
-   }
-  // $this->ages = $age;
-}
-  $obj = new hello('hello world pcs');
-  $obj = new hello('asher');
-  $obj = new hello('ashe rendler');
-  $age = new hello ('32');
+  print_r ($me)
   
 
 
